@@ -1,0 +1,15 @@
+module.exports.OTHERS = 'others';
+module.exports.THRILLER = 'thriller';
+module.exports.DRAMA = 'drama';
+module.exports.ROMANCE = 'romance';
+module.exports.ABSTRACT = 'abstract';
+module.exports.INSPIRATIONAL = 'inspirational';
+module.exports.FANSTASY = 'fantasy';
+module.exports.CHILDREN_STORIES = 'children stories';
+module.exports.CHILDREN = 'children';
+module.exports.TRAGEDY = 'tragedy';
+module.exports.HORROR = 'horror';
+module.exports.CLASSICS ='classics';
+module.exports.ACTION = 'action';
+module.exports.COMEDY = 'comedy';
+module.exports.CRIME = 'crime';

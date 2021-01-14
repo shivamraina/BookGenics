@@ -1,0 +1,4 @@
+{
+  "mongoURI": "bookgenics_mongoURI",
+  "jwtPrivateKey": "bookgenics_jwtPrivateKey"
+}

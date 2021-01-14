@@ -1,0 +1,86 @@
+.Card {
+  border: 3px solid green;
+  border-radius: 15px;
+  background-color: rgb(209, 115, 115);
+  cursor: pointer;
+}
+
+.CardSelected:hover, .Card:hover{
+  background-color: rgb(172, 20, 20);
+}
+
+.CardSelected {
+  border: 3px solid green;
+  border-radius: 15px;
+  background-color: rgb(236, 66, 14);
+  color: white;
+  cursor: pointer;
+}
+
+.Card,.CardSelected p{
+  padding-top: auto;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-family: 'sansita';
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.register-btn{
+  padding: 13px 20px 12px;
+  background-color: #000;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+}
+
+.back-btn {
+  padding: 13px 20px 12px;
+  background-color: #000;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.register-btn:hover,.back-btn:hover {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+}
+
+.disabled-register-btn {
+  padding: 13px 20px 12px;
+  background-color: rgb(117, 114, 114);
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+}
+
+.Heading {
+  padding-left: 280px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+@media(max-width:768px) {
+  .CardSelected,.Card {
+    margin-left: 50px
+  }
+  .Heading{
+    padding-left: 15px;
+  }
+  .back-btn{
+    position: relative;
+  }
+}
